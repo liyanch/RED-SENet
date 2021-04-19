@@ -1,4 +1,4 @@
-# RED-SENet(introduction&show)
+# RED-SENet(introduction)
 
 
 There is several things different from the original paper.
