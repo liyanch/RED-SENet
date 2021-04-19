@@ -7,3 +7,6 @@
 1.run python load.py to load the data.
 2.run python main.py --mode='train' and --load_mode=0 to training . If the available memory(RAM) is more than 10GB, it is faster to run --load_mode=1.
 3.run python main.py --mode='test' --test_iters=100000 to test.
+# 结果(Result)
+![image](https://user-images.githubusercontent.com/52170165/115249068-d786db00-a15a-11eb-9e78-ae10659c396d.png)
+
