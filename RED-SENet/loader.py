@@ -87,7 +87,7 @@ def get_loader(mode='train', load_mode=0,
                patch_n=None, patch_size=None,
                transform=None, batch_size=32, num_workers=6):
     dataset_ = ct_dataset(mode, load_mode, saved_path, test_patient, patch_n, patch_size, transform)
-    data_loader = DataLoader(dataset=dataset_, batch_size=batch_size, shuffle=False, num_workers=num_workers)
+    data_loader = DataLoader(dataset=dataset_, batch_size=batch_size, shuffle=True, num_workers=num_workers)
     return data_loader
 
 if __name__ == '__main__':
